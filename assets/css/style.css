@@ -1,0 +1,78 @@
+:root {
+    /* color references */
+    --black: rgb(0, 0, 0);
+    --darkgrey: rgb(62, 54, 54);
+    --red: rgb(215, 35, 35);
+    --offwhite: rgb(245, 237, 237);
+}
+body {
+    /* primary body styling */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--offwhite);
+    color: var(--black);
+}
+header {
+    /* header styling to set up navigation bar and the top of website */
+    display:flex;
+    flex-wrap:wrap;
+    background-color: var(--red);
+    color: var(--offwhite);
+    align-items: center;
+}
+#homelogo {
+    /* styling for logo at top-right of page */
+    display: flex;
+    width: 15%;
+    max-width: 125px;
+    background-color: white;
+}
+#navcontent {
+    /* styling for navigation bar content */
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding:0px;
+}
+h1 {
+    /* styling for the title withing h1 */
+    display:flex;
+    font-size: 350%;
+    font-weight: 900;
+    justify-content: left;
+    padding: 0px 10px;
+}
+nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+}
+nav ul {
+    /* styling for navigation bar menu */
+    display:inline-flex;    
+    font-size: 125%;
+    padding:10px;
+    gap: 20px;
+}
+nav ul li {
+    /* styling for link list in navigation bar */
+    justify-content:space-between;
+}
+nav ul li a {
+    /* styling for nav bar links */
+    color: var(--offwhite);
+    text-decoration: none;
+}
+#newscarousel {
+    background-color: var(--darkgrey);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-color: var(--red);
+    border-top: line 10px;
+    border-bottom: 10px;
+    color: var(--red)
+}
