@@ -64,15 +64,50 @@ nav ul li a {
     text-decoration: none;
 }
 #newscarousel {
+    /* styling to position the main logo with future adjustments pending a carousel of cycling a few items */
     background-color: var(--darkgrey);
     display:flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-around;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-color: var(--red);
-    border-top: line 10px;
-    border-bottom: 10px;
-    color: var(--red)
+    padding: 25px 150px;
+    color: var(--red);
+    gap: 10px;
+}
+.carouselinvite {
+    /* styling for tag lines or invites or messages  */
+    font-size: 200%;
+    font-weight: bolder;
+    text-align: center;
+}
+.carouselimg{
+    padding: 5px;
+    border: line 5px;
+    background-color: var(--red);
+}
+main {
+    /* styling for the main content area of the website */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0px 200px;
+}
+.articlecontainer{
+    padding:15px;
+}
+.articletitles {
+    display: flex;
+    color: var(--red);
+    font-size: 200%;
+    justify-content: center;
+}
+.articlecontent {
+    padding: 10px;
+}
+.articleparagraph{
+    padding: 10px;
+}
+.articlecardholder {
+    display: flex;
+    gap: 10px;
 }

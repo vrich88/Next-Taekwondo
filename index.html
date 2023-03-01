@@ -18,7 +18,7 @@
                     <li><a href="#aboutus">About Us</a></li>
                     <li><a href="#programs">Programs</a></li>
                     <li><a href="#contacts">Contact Us</a></li>
-                    <li><a href="#ocation">Location</a></li>
+                    <li><a href="#location">Location</a></li>
                     <!-- future space to add a shop if wanted 
                     <li>Shop</li>
                     -->
@@ -28,12 +28,12 @@
     </header>
     <section id="newscarousel">
         <!-- this just has the main logo for now; but we will upgrade it into a cycling carousel for features -->
-        <p class="invite">Come and join us!</p>
-        <img src="./assets/images/NTKD-logo-sm-12-2022.png" alt="Next Taekwondo logo" />
-        <p class="invite">Come and join us!</p>
+        <p class="carouselinvite">Come<br> <br>Join Us!</p>
+        <img class="carouselimg" src="./assets/images/NTKD-logo-sm-12-2022.png" alt="Next Taekwondo logo" />
+        <p class="carouselinvite">Come<br> <br>Join Us!</p>
     </section>
     <main>
-        <article id="aboutus">
+        <article id="aboutus" class="articlecontainer">
             <section class="articletitles">
                 <h2>About Us</h2>
             </section>
@@ -43,32 +43,59 @@
                 </p>
             </section>
         </article>
-        <article id="programs">
+        <article id="programs" class="articlecontainer">
             <section class="articletitles">
                 <h2>Programs</h2>
             </section>
             <section class="articlecontent">
-                <p>
+                <p class="articleparagraph">
                     At Next Taekwondo you can learn the life enhancing benefits of Discipline, Self Esteem, Respect for Others, Physical Fitness & Activity.<br>
                     Take a look at our programs available to kids (3 and up) and adults:
                 </p>
-                <section id="regclass" class="card">
-                    <h3 class="cardtitle">Regular Classes</h3>
-                    <p class="cardcontent">
-                        Learn life skills in our regular classes. Kids and adults develop their mind and body with Taekwondo discipline.
-                    </p>
-                    <img src="?" alt="regular taekwondo class" />
+                <section class="articlecardholder">
+                    <section id="regclass" class="card">
+                        <h3 class="cardtitle">Regular Classes</h3>
+                        <p class="cardcontent">
+                            Learn life skills in our regular classes. Kids and adults develop their mind and body with Taekwondo discipline.
+                        </p>
+                        <img src="?" alt="regular taekwondo class" />
+                    </section>
+                    <section id="compteam" class="card">
+                        <h3 class="cardtitle">Competition Team</h3>
+                        <p class="cardcontent">
+                            Think fast and kick hard with our competition team. Kids and adults focus on the sparing techniques seen at the Olympic sport level of Taekwondo.
+                        </p>
+                        <img src="?" alt="competition taekwondo team" />
+                    </section>
                 </section>
-                <section id="compteam" class="card">
-                    <h3 class="cardtitle">Competition Team</h3>
-                    <p class="cardcontent">
-                        Think fast and kick hard with our competition team. Kids and adults focus on the sparing techniques seen at the Olympic sport level of Taekwondo.
-                    </p>
-                    <img src="?" alt="competition taekwondo team" />
-                </section>
-                <p>
+                <p class="classschedule">
                     See our class schedule
                 </p>
+            </section>
+        </article>
+        <article id="contacts" class="articlecontainer">
+            <section class="articletitles">
+                <h2>Contact Us</h2>
+            </section>
+            <section class="articlecontent">
+                <p>
+                    Next Taekwondo is...
+                </p>
+            </section>
+        </article>
+        <article id="location" class="articlecontainer">
+            <section class="articletitles">
+                <h2>Location</h2>
+            </section>
+            <section class="articlecontent">
+                <p>
+                    Next Taekwondo is located at <span class="address">1803 W Trenton Rd, Edinburg, TX  78539</span><br>
+                    <br>
+                    Come on by, we can't wait to have you join our team!
+                </p>
+                <section id="map" class="card">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.909039552283!2d-98.19182008460488!3d26.264615394010267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665a1b7b0b18059%3A0x419b9f4c79572d16!2sNext%20Taekwondo!5e0!3m2!1sen!2sus!4v1677514172042!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
             </section>
         </article>
 
